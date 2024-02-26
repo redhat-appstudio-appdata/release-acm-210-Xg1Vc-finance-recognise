@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: governance-policy-addon-controller-acm-210
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads/crt-redhat-acm-tenant/release-acm-210/governance-policy-addon-controller-acm-210@sha256:8c1cb8edf06896adca7d9e54ae6a327c99a6d59d3753333e5e8485fee821b3af
+        name: container-image
+        resources: {}
+status: {}
