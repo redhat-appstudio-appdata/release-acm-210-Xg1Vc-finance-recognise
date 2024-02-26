@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: governance-policy-propagator-acm-210
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads/crt-redhat-acm-tenant/release-acm-210/governance-policy-propagator-acm-210@sha256:5b2538e263a5d186fe92e1079a83f55c81430f9d0a749316c8fa81ef39c9d5f5
+        name: container-image
+        resources: {}
+status: {}
