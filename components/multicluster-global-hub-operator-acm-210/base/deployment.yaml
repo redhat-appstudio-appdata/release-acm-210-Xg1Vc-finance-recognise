@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: multicluster-global-hub-operator-acm-210
     spec:
       containers:
-      - image: image
+      - image: quay.io/redhat-user-workloads/crt-redhat-acm-tenant/release-acm-210/multicluster-global-hub-operator-acm-210@sha256:6cc670fa9cc0e975c296cfe332a6049d95f538a72b1e9d1e840bd3a781d96196
         imagePullPolicy: Always
         name: container-image
         ports:
