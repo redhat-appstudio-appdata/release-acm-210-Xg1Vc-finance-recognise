@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: multicluster-global-hub-operator-acm-210
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads/crt-redhat-acm-tenant/release-acm-210/multicluster-global-hub-operator-acm-210@sha256:6cc670fa9cc0e975c296cfe332a6049d95f538a72b1e9d1e840bd3a781d96196
+        name: container-image
+        resources: {}
+status: {}
