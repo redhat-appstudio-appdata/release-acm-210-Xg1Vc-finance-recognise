@@ -12,7 +12,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/crt-redhat-acm-tenant/release-acm-210/iam-policy-controller-acm-210@sha256:9f6f3ef6d979a8449bafc5415a6c4ed90dd09fd50465b82433b34cb4c13cf520
+      - image: quay.io/redhat-user-workloads/crt-redhat-acm-tenant/release-acm-210/iam-policy-controller-acm-210@sha256:01309474837b0c579e117a8394dde9cbf20dbbf5f300ee6f2c57752b358c6f00
         name: container-image
         resources: {}
 status: {}
