@@ -12,7 +12,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/crt-redhat-acm-tenant/release-acm-210/governance-policy-framework-addon-acm-210@sha256:804b35ee7c230c5f0b7975eeb94dc52efead453acb066f0cad4a049a42a42383
+      - image: quay.io/redhat-user-workloads/crt-redhat-acm-tenant/release-acm-210/governance-policy-framework-addon-acm-210@sha256:9755a430c8e13eb55c015df91dc6536c7e1fe5f91acc726ebaac664336a00266
         name: container-image
         resources: {}
 status: {}
