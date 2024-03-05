@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: governance-policy-propagator-acm-210
     app.kubernetes.io/part-of: release-acm-210
-  name: governance-policy-propaga2ubs
+  name: governance-policy-propagabmkn
 spec:
   port:
     targetPort: 8080
