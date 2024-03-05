@@ -10,7 +10,7 @@ metadata:
     app.kubernetes.io/part-of: release-acm-210
   name: multicluster-operators-application-acm-210
 spec:
-  replicas: 1
+  replicas: 0
   revisionHistoryLimit: 0
   selector:
     matchLabels:
