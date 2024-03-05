@@ -12,7 +12,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/crt-redhat-acm-tenant/release-acm-210/multicluster-global-hub-operator-acm-210@sha256:c7164bd48264d2d18260fadb0b988c440203b8a2e1946e914444b75bbbfa9009
+      - image: quay.io/redhat-user-workloads/crt-redhat-acm-tenant/release-acm-210/multicluster-global-hub-operator-acm-210@sha256:2819ade03bf3b23bc5e0173802fe92be6a29e5892739500b940344d3bfb5a01c
         name: container-image
         resources: {}
 status: {}
