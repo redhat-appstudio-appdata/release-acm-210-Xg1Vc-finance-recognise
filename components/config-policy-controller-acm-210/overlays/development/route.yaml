@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: config-policy-controller-acm-210
     app.kubernetes.io/part-of: release-acm-210
-  name: config-policy-controller-hnl5
+  name: config-policy-controller-5fqe
 spec:
   port:
     targetPort: 8080
