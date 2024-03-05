@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: governance-policy-framework-addon-acm-210
     app.kubernetes.io/part-of: release-acm-210
-  name: governance-policy-framewoyy2i
+  name: governance-policy-framewohb0z
 spec:
   port:
     targetPort: 8080
