@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: multicluster-global-hub-operator-acm-210
     app.kubernetes.io/part-of: release-acm-210
-  name: multicluster-global-hub-oc3kj
+  name: multicluster-global-hub-ogw0o
 spec:
   port:
     targetPort: 8080
