@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: iam-policy-controller-acm-210
     app.kubernetes.io/part-of: release-acm-210
-  name: iam-policy-controller-acmgpm8
+  name: iam-policy-controller-acm2fzl
 spec:
   port:
     targetPort: 8080
