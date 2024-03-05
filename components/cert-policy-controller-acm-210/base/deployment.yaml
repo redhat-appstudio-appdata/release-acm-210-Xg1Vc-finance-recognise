@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: cert-policy-controller-acm-210
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/crt-redhat-acm-tenant/release-acm-210/cert-policy-controller-acm-210@sha256:20dfeac897e6bb55e7377d0df972d9e309f06851848cdb82f9d63ef380aa1084
+      - image: quay.io/redhat-user-workloads/crt-redhat-acm-tenant/release-acm-210/cert-policy-controller-acm-210@sha256:b7f4f511f9911729008a67782f22c3169d88522d43ac686cc90cc9c5b02c386c
         imagePullPolicy: Always
         name: container-image
         ports:
