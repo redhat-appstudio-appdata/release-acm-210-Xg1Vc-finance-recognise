@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: cert-policy-controller-acm-210
     app.kubernetes.io/part-of: release-acm-210
-  name: cert-policy-controller-acqz51
+  name: cert-policy-controller-acgyde
 spec:
   port:
     targetPort: 8080
