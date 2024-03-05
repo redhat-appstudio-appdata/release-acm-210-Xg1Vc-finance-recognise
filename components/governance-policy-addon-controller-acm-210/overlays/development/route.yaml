@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: governance-policy-addon-controller-acm-210
     app.kubernetes.io/part-of: release-acm-210
-  name: governance-policy-addon-cgnbv
+  name: governance-policy-addon-c1niu
 spec:
   port:
     targetPort: 8080
