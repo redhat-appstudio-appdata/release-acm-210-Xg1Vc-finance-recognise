@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: multicluster-operators-subscription-acm-210
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads/crt-redhat-acm-tenant/release-acm-210/multicluster-operators-subscription-acm-210@sha256:97e041cb5f0a213f4bafb3d679c55e08e35405918781412fc52ef96229f93e95
+        name: container-image
+        resources: {}
+status: {}
