@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: multicluster-operators-subscription-acm-210
     spec:
       containers:
-      - image: image
+      - image: quay.io/redhat-user-workloads/crt-redhat-acm-tenant/release-acm-210/multicluster-operators-subscription-acm-210@sha256:97e041cb5f0a213f4bafb3d679c55e08e35405918781412fc52ef96229f93e95
         imagePullPolicy: Always
         name: container-image
         ports:
