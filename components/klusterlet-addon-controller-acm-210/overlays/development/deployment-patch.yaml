@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: klusterlet-addon-controller-acm-210
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads/crt-redhat-acm-tenant/release-acm-210/klusterlet-addon-controller-acm-210@sha256:43f5f83847b3b64d784c3cea6c6b97390b9a37e83e676693cd868e73493f52d3
+        name: container-image
+        resources: {}
+status: {}
