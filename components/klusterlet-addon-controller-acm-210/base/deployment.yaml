@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: klusterlet-addon-controller-acm-210
     spec:
       containers:
-      - image: image
+      - image: quay.io/redhat-user-workloads/crt-redhat-acm-tenant/release-acm-210/klusterlet-addon-controller-acm-210@sha256:43f5f83847b3b64d784c3cea6c6b97390b9a37e83e676693cd868e73493f52d3
         imagePullPolicy: Always
         name: container-image
         ports:
