@@ -12,7 +12,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/crt-redhat-acm-tenant/release-acm-210/klusterlet-addon-controller-acm-210@sha256:43f5f83847b3b64d784c3cea6c6b97390b9a37e83e676693cd868e73493f52d3
+      - image: quay.io/redhat-user-workloads/crt-redhat-acm-tenant/release-acm-210/klusterlet-addon-controller-acm-210@sha256:8f9be5d49afe5f39370f0d4aee5d8fdcd1da2538bce13595f70dd98e0731c0c3
         name: container-image
         resources: {}
 status: {}
