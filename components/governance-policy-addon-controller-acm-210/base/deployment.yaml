@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: governance-policy-addon-controller-acm-210
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/crt-redhat-acm-tenant/release-acm-210/governance-policy-addon-controller-acm-210@sha256:8fe33de61c0504ea9ab5fe9071e8cae556b81c062f91f0997cb85df201fb82b1
+      - image: quay.io/redhat-user-workloads/crt-redhat-acm-tenant/release-acm-210/governance-policy-addon-controller-acm-210@sha256:02fb6639cb539cca66915e4143f32dadcebeb9c1c7ba8f799f74e74fb3df8e53
         imagePullPolicy: Always
         name: container-image
         ports:
